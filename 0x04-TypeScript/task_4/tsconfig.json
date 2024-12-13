@@ -2,11 +2,10 @@
   "compilerOptions": {
     "target": "ES5",
     "module": "commonjs",
-    "rootDir": "./",
-    "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
+    "rootDir": "./js",
+    "outDir": "./dist"
   },
   "include": ["./js/**/*"]
 }

@@ -40,4 +40,3 @@ interface Student {
   
   table.appendChild(tbody);
   document.body.appendChild(table);
-  
