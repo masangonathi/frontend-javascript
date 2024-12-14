@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "module": "commonjs",
-    "strict": true,
     "esModuleInterop": true,
-    "rootDir": "./js",
-    "outDir": "./dist"
-  },
-  "include": ["./js/**/*"]
+    "resolveJsonModule": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+        "skipLibCheck": true
+  }
 }

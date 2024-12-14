@@ -1,8 +1,10 @@
-import { Cpp, Java, React } from './subjects';
+import { Subjects } from './subjects/Cpp';
+import { Subjects as JavaSubjects } from './subjects/Java';
+import { Subjects as ReactSubjects } from './subjects/React';
 
-export const cpp = new Cpp();
-export const java = new Java();
-export const react = new React();
+export const cpp = new Subjects.Cpp();
+export const java =  new JavaSubjects.Java();
+export const react = new ReactSubjects.React();
 
 export const cTeacher = {
   firstName: 'John',
