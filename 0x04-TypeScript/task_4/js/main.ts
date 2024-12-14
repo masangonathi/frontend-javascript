@@ -1,7 +1,7 @@
 import { Subjects } from './subjects/Cpp';
 import { Subjects as JavaSubjects } from './subjects/Java';
 import { Subjects as ReactSubjects } from './subjects/React';
-
+// Tried fixing this issue in tsconfig.json by updating code but it still showing that it not a  module //
 export const cpp = new Subjects.Cpp();
 export const java =  new JavaSubjects.Java();
 export const react = new ReactSubjects.React();
